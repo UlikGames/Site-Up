@@ -1,0 +1,188 @@
+html {
+	font-size: 100%;
+}
+html, button{
+	font-family: 'Varela Round', sans-serif
+}
+body {
+	margin: 0; font-family: 'Varela Round', sans-serif;
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+	color: #353535;
+}
+h2 {
+	font-size: 1.5em;
+	margin: 0.83em 0;
+}
+a { 
+	color: #353535; 
+	transition: all 0.5s; 
+}
+p { 
+	color: #8c9398;
+	word-spacing: 1px; 
+	line-height: 25px; 
+	font-size: 14px; 
+}
+h2 { 
+	font-size: 15px; 
+	color: #353535; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+}
+.wrp { 
+	height: 650px; 
+}
+.inner {
+	padding-top: 170px; 
+}
+
+.hero {
+	background: url('../img/hero-bg.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 65px 0 300px 0;
+	height: auto;
+}
+
+.hero h1 {
+	font-size: 40px;
+	letter-spacing: 12px;
+	margin: 10px;
+}
+
+.hero h1 span {
+	color: #a1a9b0;
+	display: inline-block;
+}
+
+.hero p {
+	letter-spacing: 1px;
+}
+
+.lbtn {
+	background: rgba(61, 201, 179, 1);
+	padding: 20px 40px;
+	border-radius: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: inline-block;
+	margin: 60px 0 0;
+	font-weight: bold;
+}
+
+.intro {
+	background: #f3f5f8;
+}
+.intro p {
+	margin: 50px 0 0 50px;
+}
+
+h1, .arrow {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #353535;
+	letter-spacing: 1px;
+	background: url('../img/h1-bg.png') no-repeat center bottom;
+	padding-bottom: 30px; 
+}
+.arrow{
+	font-weight: bold; 
+
+}
+
+.features-wrp, .team-wrp {
+	margin: 70px 0 0; 
+}
+.icon { 
+	height: 175px; 
+	width: 175px; 
+	line-height: 175px; 
+	max-width: 100%; 
+	background: #3dc9b3; 
+	border-radius: 50%; 
+	display: block; color: #fff; 
+	font-size: 55px; 
+	text-align: center; 
+	vertical-align: middle; 
+	position: relative; 
+	margin: 0 auto 50px; 
+}
+.iphone { 
+
+	width: 50%; 
+	background: #f3f5f8; 
+	float: left; 
+	height: 100%;
+	z-index: 1; 
+}
+.fluid-white { 
+	width: 50%; 
+	background: #fff; 
+	float: right; 
+	height: 100%; 
+	z-index: 2; 
+}
+.responsive-services { 
+	position: relative;
+}
+.div-padding{
+    padding: 90px 0 100px;
+}
+h2::after {
+    content: " ";
+    border: solid 2px #3dc9b3;
+    display: block;
+    width: 35px;
+    margin: 25px auto;
+}
+.image{
+	background: url(../img/iphone-bg.png) no-repeat center center;
+    background-position: 200px 10px;
+    height: 100%;
+}
+.designs {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+}
+#servicesSlider {
+    margin-top: 70px;
+}
+.navicon {
+    position: relative;
+    height: 26px;
+}
+.navicon {
+    position: relative;
+    height: 26px;
+}
+#nav-toggle {
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #353535;
+    position: absolute;
+    display: block;
+    content: '';
+}
+#nav-toggle span:before {
+    top: -10px;
+}
+#nav-toggle span:after {
+    bottom: -10px;
+}
+.row{
+    margin-right: 15px;
+}
